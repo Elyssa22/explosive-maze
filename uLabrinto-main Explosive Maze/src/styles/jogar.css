@@ -1,0 +1,45 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td.celula {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+    height: 20px;
+    width: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url ("/static/images/grama.png");
+}
+
+td.personagem {
+    background-color: green;
+    cursor: pointer;
+}
+
+td.objetivo {
+    background-color: green;
+    color: white;
+}
+
+td.bomba {
+    background-color: green;
+    color: white;
+}
+
+td.bloco {
+    background-color: black;
+    color: white;
+}

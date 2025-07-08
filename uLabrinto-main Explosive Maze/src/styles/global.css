@@ -1,0 +1,68 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	background-image: url("/images/bomberman.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+}
+
+h1 {
+ 	color: rgb(255, 255, 255);
+ 	font-weight: bold;
+ 	font-family: verdana;
+}
+
+.menu {
+	display: block;
+	font-size: 20px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-width: 3px;
+	width: 20%;
+	padding: 5px;
+	background-color: lightgrey;
+	border: 3px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 5px 0px 5px 0px;
+}
+
+.menu:hover{
+	background-color: #aaa;
+}
+
+.menu:visited{
+	color: black;
+}
+
+img.sobre {
+	max-width:25%;
+	max-height:25%;
+}
+
+.quadro {
+	width: 300px; /* tamanho fixo */
+	background-color: lightgrey;
+	border: 3px solid black;
+	padding: 10px 20px;
+	margin: 20px auto 0 auto; /* centraliza horizontalmente e dá espaço acima */
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
