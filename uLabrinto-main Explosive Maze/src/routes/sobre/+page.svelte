@@ -4,10 +4,12 @@
 
 <div class="quadro">
   <p><strong>Autores:</strong></p>
-  <p>Italo Matheus | <a href="mailto: imls@discente.ifpe.edu.br">imls@discente.ifpe.edu.br</a></p>
-  <p>Wellington Kauan</p>
-  <p>Giselle Caroline</p>
-  <p>Elyssa Maria</p>
+  <p>Italo Matheus Lima da Silva <a href="mailto: imls@discente.ifpe.edu.br">imls@discente.ifpe.edu.br</a></p>
+  <p>Wellington Kauan da Silva Souza</p> 
+  <p>Giselle Caroline Tomaz Ribeiro de Sousa</p> 
+  <p>Elyssa Maria de Souza Santos</p>
+  <p>Eduardo Ribeiro da Silva Bezerra</p>
+  <p>Igor Alexandre Silva de Oliveira</p>
 </div>
 
 <a class="menu" href="/">Voltar ao Menu</a>
