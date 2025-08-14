@@ -26,10 +26,10 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
+        [1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
         [1,0,1,1,1,0,1,0,1,0,1,0,1,1,0,1,0,1,1,1,0,1],
         [1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1],
-        [1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1],
+        [1,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,1,0,1],
         [1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1],
         [1,1,1,0,1,0,1,1,1,0,1,1,1,1,0,1,1,1,0,1,0,1],
         [1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
@@ -42,8 +42,8 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1],
-        [1,0,1,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1],
+        [1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1],
+        [1,0,1,1,1,0,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1],
         [1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1],
         [1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1],
         [1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1],
@@ -62,9 +62,9 @@
         [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,1],
         [1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1],
         [1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
       ],
       posPersonagem: new Coordenada(1,1),
@@ -74,13 +74,13 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
-        [1,0,1,1,0,1,0,1,1,0,1,0,1,1,0,1,0,1,1,1,0,1],
+        [1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
+        [1,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1,0,1,1,1,0,1],
         [1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1],
         [1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1],
         [1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1],
         [1,1,1,0,1,0,1,1,1,0,1,1,1,1,0,1,1,1,0,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
       ],
       posPersonagem: new Coordenada(1,1),
@@ -90,12 +90,12 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1],
+        [1,0,1,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1],
         [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1],
+        [1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
         [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
-        [1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
-        [1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
+        [1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1],
         [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
       ],
@@ -106,13 +106,13 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1],
-        [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1],
-        [1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,1,0,0,1],
+        [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,1,1],
+        [1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
         [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
       ],
       posPersonagem: new Coordenada(1,1),
@@ -122,11 +122,11 @@
     {
       mapa: [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-        [1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1],
-        [1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
-        [1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
-        [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1],
+        [1,0,0,0,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1],
+        [1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+        [1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
+        [1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,1],
         [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -166,65 +166,66 @@
       posPersonagem: new Coordenada(1,1),
       posObjetivo: new Coordenada(4,19),
       posBomba: new Coordenada(2,5)
+      
+    },
+    {
+      mapa: [
+        [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+        [1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1],
+        [1,0,1,1,1,0,1,0,1,1,1,0,1,1,0,1,0,1,1,1,0,1],
+        [1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1],
+        [1,0,1,0,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,1,0,1],
+        [1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1],
+        [1,1,1,0,1,0,1,1,1,0,1,1,1,1,0,1,1,1,0,1,0,1],
+        [1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      ],
+      posPersonagem: new Coordenada(1,1),
+      posObjetivo: new Coordenada(7,20),
+      posBomba: new Coordenada(3,5)
     }
+    
   ];
 
-  // ----------------- EMBARALHAR FASES -----------------
-  function shuffleArray<T>(array: T[]): T[] {
-    return array
-      .map(a => ({ sort: Math.random(), value: a }))
-      .sort((a,b) => a.sort - b.sort)
-      .map(a => a.value);
-  }
-
-  const fasesEmbaralhadas = shuffleArray(fases);
-
+  const fasesEmbaralhadas = [...fases]; // Mantendo embaralhamento simples
   let faseAtualIndex = 0;
   let jogo: EstadoJogo = criarJogo(faseAtualIndex);
+  let faseConcluida = false;
 
   function criarJogo(index: number): EstadoJogo {
-  const f = fasesEmbaralhadas[index];
+    const f = fasesEmbaralhadas[index];
+    const l = f.posObjetivo.linha;
+    const c = f.posObjetivo.coluna;
+    f.mapa[l][c] = 0;
 
-  const l = f.posObjetivo.linha;
-  const c = f.posObjetivo.coluna;
-
-  // Garantir que o objetivo não esteja sobre uma parede
-  f.mapa[l][c] = 0;
-
-  // Cercar o objetivo com blocos, se dentro do mapa
-  const adjacentes = [
-    { dl: -1, dc: 0 }, // cima
-    { dl: 1, dc: 0 },  // baixo
-    { dl: 0, dc: -1 }, // esquerda
-    { dl: 0, dc: 1 }   // direita
-  ];
-
-  for (const {dl, dc} of adjacentes) {
-    const nl = l + dl;
-    const nc = c + dc;
-    if (nl > 0 && nc > 0 && nl < f.mapa.length-1 && nc < f.mapa[0].length-1) {
-      f.mapa[nl][nc] = 1; // colocar bloco
+    const adjacentes = [
+      { dl: -1, dc: 0 },
+      { dl: 1, dc: 0 },
+      { dl: 0, dc: -1 },
+      { dl: 0, dc: 1 }
+    ];
+    for (const { dl, dc } of adjacentes) {
+      const nl = l + dl;
+      const nc = c + dc;
+      if (nl > 0 && nc > 0 && nl < f.mapa.length - 1 && nc < f.mapa[0].length - 1) {
+        f.mapa[nl][nc] = 1;
+      }
     }
+
+    let bombaLinha: number, bombaColuna: number;
+    do {
+      bombaLinha = Math.floor(Math.random() * f.mapa.length);
+      bombaColuna = Math.floor(Math.random() * f.mapa[0].length);
+    } while (
+      f.mapa[bombaLinha][bombaColuna] === 1 ||
+      (Math.abs(bombaLinha - f.posPersonagem.linha) + Math.abs(bombaColuna - f.posPersonagem.coluna) < 6) ||
+      (Math.abs(bombaLinha - l) + Math.abs(bombaColuna - c) < 6)
+    );
+
+    f.posBomba = new Coordenada(bombaLinha, bombaColuna);
+
+    return new EstadoJogo(f.mapa, f.posPersonagem, f.posObjetivo, f.posBomba);
   }
-
-  // Gerar posição aleatória da bomba
-  let bombaLinha: number, bombaColuna: number;
-  do {
-    bombaLinha = Math.floor(Math.random() * f.mapa.length);
-    bombaColuna = Math.floor(Math.random() * f.mapa[0].length);
-  } while (
-    f.mapa[bombaLinha][bombaColuna] === 1 ||                                   // não sobre parede
-    (Math.abs(bombaLinha - f.posPersonagem.linha) + Math.abs(bombaColuna - f.posPersonagem.coluna) < 6) || // não muito perto do personagem
-    (Math.abs(bombaLinha - l) + Math.abs(bombaColuna - c) < 6)                 // não muito perto do objetivo
-  );
-
-  f.posBomba = new Coordenada(bombaLinha, bombaColuna);
-
-  return new EstadoJogo(f.mapa, f.posPersonagem, f.posObjetivo, f.posBomba);
-}
-
-
-
 
   function houveColisao(pos: Coordenada, jogo: EstadoJogo): boolean {
     return (
@@ -234,6 +235,17 @@
       pos.coluna >= jogo.mapa[0].length ||
       jogo.mapa[pos.linha][pos.coluna] === 1
     );
+  }
+
+  function proximaFase() {
+    faseAtualIndex++;
+    faseConcluida = false;
+    if (faseAtualIndex >= fasesEmbaralhadas.length) {
+      alert('Parabéns! Você venceu todas as fases!');
+      goto('/');
+    } else {
+      jogo = criarJogo(faseAtualIndex);
+    }
   }
 
   function onKeyDown(event: KeyboardEvent): void {
@@ -255,32 +267,34 @@
           for (const {dl, dc} of adjacentes) {
             const l = jogo.posicaoPersonagem.linha + dl;
             const c = jogo.posicaoPersonagem.coluna + dc;
-            // nunca destruir borda do mapa
             if(l>0 && c>0 && l<jogo.mapa.length-1 && c<jogo.mapa[0].length-1) {
               if(jogo.mapa[l][c]===1) jogo.mapa[l][c]=0;
             }
           }
           jogo.temBomba=false;
+          // Bomba reaparece instantaneamente em outro lugar
+          let novaLinha, novaColuna;
+          do {
+            novaLinha = Math.floor(Math.random() * jogo.mapa.length);
+            novaColuna = Math.floor(Math.random() * jogo.mapa[0].length);
+          } while (
+            jogo.mapa[novaLinha][novaColuna] === 1 ||
+            (novaLinha === jogo.posicaoPersonagem.linha && novaColuna === jogo.posicaoPersonagem.coluna) ||
+            (novaLinha === jogo.posicaoObjetivo.linha && novaColuna === jogo.posicaoObjetivo.coluna)
+          );
+          jogo.posBomba = new Coordenada(novaLinha, novaColuna);
         }
         return;
     }
 
-    if(novaPos.linha===jogo.posicaoBomba.linha && novaPos.coluna===jogo.posicaoBomba.coluna){
+    if (novaPos.linha===jogo.posicaoBomba.linha && novaPos.coluna===jogo.posicaoBomba.coluna){
       jogo.posicaoBomba = new Coordenada(-1,-1);
       jogo.temBomba = true;
     }
 
-    if(novaPos.linha===jogo.posicaoObjetivo.linha && novaPos.coluna===jogo.posicaoObjetivo.coluna){
-      faseAtualIndex++;
-      if(faseAtualIndex >= fasesEmbaralhadas.length){
-        alert('Parabéns! Você venceu todas as fases!');
-        goto('/');
-        return;
-      }else{
-        alert(`Parabéns! Você completou a fase ${faseAtualIndex}`);
-        jogo = criarJogo(faseAtualIndex);
-        return;
-      }
+    if (novaPos.linha===jogo.posicaoObjetivo.linha && novaPos.coluna===jogo.posicaoObjetivo.coluna){
+      faseConcluida = true;
+      return;
     }
 
     if(!houveColisao(novaPos, jogo)){
@@ -294,11 +308,56 @@
   td { padding: 0; }
   .celula img { display:block; }
   .menu { display:block; margin-top:10px; font-size:1.2rem; text-decoration:none; }
+
+  .btn-proxima {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #338b33;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn-proxima:hover { background-color: #3d4642; }
+
+  .btn-reiniciar {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn-reiniciar:hover { background-color: #d62828; }
+
+  /* Overlay Fase Concluída */
+  .overlay {
+    position: fixed;
+    top:0; left:0;
+    width:100%; height:100%;
+    background: rgba(0,0,0,0.7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #fff;
+    font-size: 3rem;
+    z-index: 100;
+    flex-direction: column;
+  }
 </style>
 
 <h1>Movimente o personagem até o objetivo</h1>
 <p>Fase atual: {faseAtualIndex+1} / {fasesEmbaralhadas.length}</p>
 <p>Bomba coletada: {jogo.temBomba ? 'Sim':'Não'}</p>
+
+<!-- Botão de reiniciar fase -->
+<button class="btn-reiniciar" on:click={() => {
+  jogo = criarJogo(faseAtualIndex);
+  faseConcluida = false;
+}}>Reiniciar Fase</button>
 
 <table>
   {#each jogo.mapa as linha,i}
@@ -329,6 +388,13 @@
     </tr>
   {/each}
 </table>
+
+{#if faseConcluida}
+  <div class="overlay">
+    <div>Fase Concluída!</div>
+    <button class="btn-proxima" on:click={proximaFase}>Próxima Fase</button>
+  </div>
+{/if}
 
 <br/>
 <a class="menu" href="/">Voltar ao Menu</a>
