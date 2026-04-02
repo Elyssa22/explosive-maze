@@ -1,14 +1,4 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div style="height: 200px"></div>
 <h1>Explosive Maze</h1>
 <br>
 <br>
