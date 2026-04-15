@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomber game</title>
+
+    <link rel="stylesheet" href="./src/styles.css">
+
+</head>
+<body>
+    
+    <div id="gameContainer">
+  <div id="hud">
+    <div>❤️ Vidas: <span id="lives">3</span></div>
+    <div>💣 Bombas: <span id="bombs">1</span></div>
+    <div>🔥 Poder: <span id="power">1</span></div>
+    <div>⭐ Pontos: <span id="score">0</span></div>
+    <div>🗺️ Fase: <span id="level">1</span></div>
+  </div>
+
+  <canvas id="c" width="520" height="440"></canvas>
+
+  <div id="msg"></div>
+
+  <div id="controls">WASD ou Setas para mover | Espaço para bomba</div>
+
+  <div id="mobileControls">
+    <button style="grid-column:1;grid-row:2" onclick="mobileMove(-1,0)">◀</button>
+    <button style="grid-column:2;grid-row:1" onclick="mobileMove(0,-1)">▲</button>
+    <button style="grid-column:2;grid-row:2" onclick="mobileBomb()">💣</button>
+    <button style="grid-column:2;grid-row:3" onclick="mobileMove(0,1)">▼</button>
+    <button style="grid-column:3;grid-row:2" onclick="mobileMove(1,0)">▶</button>
+  </div>
+
+  <script src="./src/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #1a1a2e; }
+#gameContainer { display: flex; flex-direction: column; align-items: center; padding: 12px; font-family: monospace; background: #1a1a2e; min-height: 500px; }
+#hud { display: flex; gap: 24px; margin-bottom: 8px; color: #fff; font-size: 14px; font-weight: bold; background: #0f0f23; padding: 6px 16px; border-radius: 6px; width: 100%; max-width: 520px; justify-content: space-between; }
+#hud span { color: #ffd700; }
+canvas { border: 3px solid #444; border-radius: 4px; image-rendering: pixelated; max-width: 100%; }
+#msg { margin-top: 10px; font-size: 18px; font-weight: bold; color: #fff; text-align: center; min-height: 28px; }
+#controls { margin-top: 8px; color: #aaa; font-size: 12px; text-align: center; }
+#mobileControls { display: grid; grid-template-columns: repeat(3, 44px); grid-template-rows: repeat(3, 44px); gap: 3px; margin-top: 10px; }
+#mobileControls button { width: 44px; height: 44px; font-size: 18px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 6px; color: #fff; cursor: pointer; }
+#mobileControls button:active { background: rgba(255,255,255,0.35); }
